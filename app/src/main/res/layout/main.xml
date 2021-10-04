@@ -1,0 +1,100 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/main" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_main_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__main_ek2"
+					android:background="@drawable/_bg__main_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="850dp" />
+
+				<ImageView android:id="@+id/rectangle_1"
+					android:src="@drawable/rectangle_1"
+					android:contentDescription="rectangle_1"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="224dp"
+					android:layout_width="411dp"
+					android:layout_height="626dp" />
+
+				<ImageView android:id="@+id/rectangle_2"
+					android:src="@drawable/rectangle_2"
+					android:contentDescription="rectangle_2"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="342dp"
+					android:layout_width="411dp"
+					android:layout_height="508dp" />
+
+				<TextView
+					android:id="@+id/multiplication_tables"
+					android:layout_width="415dp"
+					android:layout_height="116dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="-6dp"
+					android:layout_marginTop="258dp"
+					android:gravity="center"
+					android:text="@string/multiplication_tables_string"
+					android:textColor="@color/multiplication_tables_color"
+					android:textSize="35sp"
+					android:textStyle="bold" />
+
+				<Button android:id="@+id/button1"
+					android:text="@string/start_string"
+					android:textSize="30sp"
+					android:textColor="@color/start_color"
+					android:background="@drawable/rectangle_3_shape"
+					 android:layout_marginStart="55dp"
+					android:layout_marginTop="540dp"
+					android:layout_width="301dp"
+					android:layout_height="94dp" />
+
+				<TextView
+					android:id="@+id/start"
+					android:layout_width="236dp"
+					android:layout_height="119.5dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="93dp"
+					android:layout_marginTop="530dp"
+					android:gravity="center"
+					android:text="@string/start_string"
+					android:textColor="@color/start_color"
+					android:textSize="45sp" />
+
+
+				<RelativeLayout android:id="@+id/group"
+					android:layout_marginTop="53.71dp"
+					android:layout_marginStart="120dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector"
+						android:src="@drawable/vector"
+						android:contentDescription="vector"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="170dp"
+						android:layout_height="175.58dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

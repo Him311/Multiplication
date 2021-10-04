@@ -1,0 +1,197 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/mc_quiz" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+			<RelativeLayout android:id="@+id/page_mc_quiz_ek2"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__mc_quiz_ek3"
+					android:background="@drawable/_bg__mc_quiz_ek3_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="850dp" />
+
+				<ImageView android:id="@+id/rectangle_1_ek13"
+					android:src="@drawable/rectangle_1_ek13"
+					android:contentDescription="rectangle_1_ek13"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="224dp"
+					android:layout_width="411dp"
+					android:layout_height="626dp" />
+
+				<ImageView android:id="@+id/rectangle_2_ek13"
+					android:src="@drawable/rectangle_2_ek13"
+					android:contentDescription="rectangle_2_ek13"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="342dp"
+					android:layout_width="411dp"
+					android:layout_height="508dp" />
+
+				<TextView android:id="@+id/multiplication_tables_ek13"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/multiplication_tables_color"
+					android:layout_marginLeft="-3dp"
+					android:layout_marginTop="85dp"
+					android:layout_width="152dp"
+					android:layout_height="29.5dp"
+					android:text="@string/multiplication_tables_ek13_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_ek17"
+					android:layout_marginTop="17.56dp"
+					android:layout_marginStart="27dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek73"
+						android:src="@drawable/vector_ek73"
+						android:contentDescription="vector_ek73"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="56dp"
+						android:layout_height="57.84dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/menu_black_24dp_1_ek12"
+					android:layout_marginTop="15dp"
+					android:layout_marginStart="326dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageButton android:id="@+id/imageButton1"
+						android:src="@drawable/vector_ek74"
+						android:contentDescription="vector_ek74"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="60dp"
+						android:layout_height="60dp" />
+
+					<ImageView android:id="@+id/vector_ek75"
+						android:src="@drawable/vector_ek75"
+						android:contentDescription="vector_ek75"
+						 android:layout_marginStart="7.5dp"
+						android:layout_marginTop="15dp"
+						android:layout_width="45dp"
+						android:layout_height="30dp" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/countLabel"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="40sp"
+					android:textColor="@color/contents_ek3_color"
+					android:layout_marginLeft="62dp"
+					android:layout_marginTop="121dp"
+					android:layout_width="299dp"
+					android:layout_height="75dp"
+					android:text="MC Quiz 1"
+					 />
+
+
+				<RelativeLayout android:id="@+id/check_black_24dp_1_ek1"
+					android:layout_marginTop="197dp"
+					android:layout_marginStart="32dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+
+				<RelativeLayout android:id="@+id/clear_black_24dp_1_ek1"
+					android:layout_marginTop="197dp"
+					android:layout_marginStart="224dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+
+				<View
+					android:id="@+id/rectangle_39"
+					android:layout_width="372dp"
+					android:layout_height="190dp"
+					android:layout_marginStart="23dp"
+					android:layout_marginTop="250dp"
+					android:background="@drawable/rectangle_39_shape"
+					android:text="@string/_5_x_6_____string" />
+
+				<TextView
+					android:id="@+id/questionLabel"
+					android:layout_width="297dp"
+					android:layout_height="109dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginStart="60dp"
+					android:layout_marginLeft="60dp"
+					android:layout_marginTop="285dp"
+					android:gravity="center"
+					android:text="Question"
+					android:textColor="@color/_bg__main_ek2_color"
+					android:textSize="60sp" />
+
+				<Button
+					android:id="@+id/answerBtn1"
+					android:layout_width="177dp"
+					android:layout_height="88dp"
+					android:layout_marginStart="23dp"
+					android:layout_marginTop="500dp"
+					android:background="@drawable/rectangle_40_shape"
+					android:onClick="checkAnswer"
+					android:text="answer1"
+					android:textSize="30sp" />
+
+				<Button
+					android:id="@+id/answerBtn2"
+					android:layout_width="177dp"
+					android:layout_height="88dp"
+					android:layout_marginStart="218dp"
+					android:layout_marginTop="500dp"
+					android:background="@drawable/rectangle_41_shape"
+					android:onClick="checkAnswer"
+					android:text="answer2"
+					android:textSize="30sp" />
+
+				<Button android:id="@+id/answerBtn3"
+					android:text="answer3"
+					android:textSize="30sp"
+					android:background="@drawable/rectangle_42_shape"
+					 android:layout_marginStart="23dp"
+					android:layout_marginTop="646dp"
+					android:layout_width="177dp"
+					android:layout_height="88dp"
+					android:onClick="checkAnswer"/>
+
+				<Button android:id="@+id/answerBtn4"
+					android:text="answer4"
+					android:textSize="30sp"
+					android:background="@drawable/rectangle_43_shape"
+					 android:layout_marginStart="218dp"
+					android:layout_marginTop="646dp"
+					android:layout_width="177dp"
+					android:layout_height="88dp"
+					android:onClick="checkAnswer"/>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

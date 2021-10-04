@@ -1,0 +1,182 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+
+	<ScrollView android:id="@+id/multiplication" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_multiplication_ek2"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__multiplication_ek3"
+					android:background="@drawable/_bg__multiplication_ek3_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="411dp"
+					android:layout_height="850dp" />
+
+				<ImageView android:id="@+id/rectangle_1_ek2"
+					android:src="@drawable/rectangle_1_ek2"
+					android:contentDescription="rectangle_1_ek2"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="224dp"
+					android:layout_width="411dp"
+					android:layout_height="626dp" />
+
+				<ImageView android:id="@+id/rectangle_2_ek2"
+					android:src="@drawable/rectangle_2_ek2"
+					android:contentDescription="rectangle_2_ek2"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="342dp"
+					android:layout_width="411dp"
+					android:layout_height="508dp" />
+
+				<View android:id="@+id/rectangle_23"
+					android:background="@drawable/rectangle_23_shape"
+					 android:layout_marginStart="27dp"
+					android:layout_marginTop="253dp"
+					android:layout_width="359dp"
+					android:layout_height="440dp" />
+
+				<TextView android:id="@+id/multiplication_tables_ek2"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="15sp"
+					android:textColor="@color/multiplication_tables_color"
+					android:layout_marginLeft="-3dp"
+					android:layout_marginTop="85dp"
+					android:layout_width="152dp"
+					android:layout_height="29.5dp"
+					android:text="@string/multiplication_tables_ek2_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_ek2"
+					android:layout_marginTop="17.56dp"
+					android:layout_marginStart="27dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek4"
+						android:src="@drawable/vector_ek4"
+						android:contentDescription="vector_ek4"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="56dp"
+						android:layout_height="57.84dp" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout android:id="@+id/menu_black_24dp_1_ek1"
+					android:layout_marginTop="15dp"
+					android:layout_marginStart="326dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<ImageView android:id="@+id/vector_ek5"
+						android:src="@drawable/vector_ek5"
+						android:contentDescription="vector_ek5"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="60dp"
+						android:layout_height="60dp" />
+
+					<ImageButton
+						android:id="@+id/imageButton1"
+						android:layout_width="45dp"
+						android:layout_height="30dp"
+						android:layout_marginStart="7.5dp"
+						android:layout_marginTop="15dp"
+						android:contentDescription="vector_ek6"
+						android:src="@drawable/vector_ek6" />
+
+				</RelativeLayout>
+
+				<TextView android:id="@+id/what_is_multiplication"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="40sp"
+					android:textColor="@color/contents_ek3_color"
+					android:layout_marginLeft="76dp"
+					android:layout_marginTop="113dp"
+					android:layout_width="271dp"
+					android:layout_height="122dp"
+					android:text="@string/what_is_multiplication_string"
+					 />
+
+				<TextView android:id="@+id/multiplication_is_repeated_addition"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="40sp"
+					android:textColor="@color/multiplication_is_repeated_addition_color"
+					android:layout_marginLeft="12dp"
+					android:layout_marginTop="293dp"
+					android:layout_width="399dp"
+					android:layout_height="122dp"
+					android:text="@string/multiplication_is_repeated_addition_string"
+					 />
+
+				<TextView android:id="@+id/a_x_b___b_________b"
+					android:textSize="40sp"
+					android:textColor="@color/multiplication_is_repeated_addition_color"
+					android:layout_marginLeft="53dp"
+					android:layout_marginTop="473dp"
+					android:layout_width="328dp"
+					android:layout_height="75dp"
+					android:text="@string/a_x_b___b_________b_string"
+					 />
+
+				<ImageView android:id="@+id/vector_1"
+					android:src="@drawable/vector_1"
+					android:contentDescription="vector_1"
+					 android:layout_marginStart="183.4dp"
+					android:layout_marginTop="515.4dp"
+					android:layout_width="184dp"
+					android:layout_height="52.42dp" />
+
+				<TextView android:id="@+id/a_times"
+					android:textSize="40sp"
+					android:textColor="@color/multiplication_is_repeated_addition_color"
+					android:layout_marginLeft="196dp"
+					android:layout_marginTop="569dp"
+					android:layout_width="163dp"
+					android:layout_height="75dp"
+					android:text="@string/a_times_string"
+					 />
+
+				<ImageButton android:id="@+id/imageButton2"
+					android:src="@drawable/vector_ek8"
+					android:background="@drawable/rectangle_31_shape"
+					 android:layout_marginStart="288dp"
+					android:layout_marginTop="722dp"
+					android:layout_width="74dp"
+					android:layout_height="74dp" />
+
+
+			</RelativeLayout>
+
+
+
+
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
